@@ -1,13 +1,5 @@
 #Ignacio Castillo - Proyecto Integrador final
 
-echo "# proyecto_final_integrador" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/CazDNB/proyecto_final_integrador.git
-git push -u origin main
-
 """ Crear un menú interactivo utilizando bucles while y condicionales if-elif-else:
 ● El menú debe permitir al usuario seleccionar entre diferentes opciones relacionadas con la gestión de productos.
 ● Entre las opciones, deben incluirse: agregar productos al inventario y mostrar los productos registrados. 
@@ -29,8 +21,6 @@ is_running = True
 
 productos = []
 cantidades = [] 
-
-
 
 os.system("cls")
 while is_running:
